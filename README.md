@@ -50,12 +50,12 @@ We want to do this for several reasons:
 
 # How to
 
-Following is the list of all subpackages.  For each, we need to ubmit a PR cleaning all existing golint warnings.
+Following is the list of all subpackages.  For each, we need to submit a PR cleaning all existing golint warnings.
 One thing to keep in mind is that golint will require that every exported symbol has a comment:
 favor making symbols private where possible before documenting.
 
 
-## Packages requireing linting
+## Packages requiring linting
 - [ ] ./client/v2        5
 - [ ] ./cluster/internal       28
 - [ ] ./cmd/influx/cli       15
