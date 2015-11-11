@@ -1,28 +1,3 @@
-# Add a `golint` issue to any Go repo
-
-I find that `golint` is very helpful to improve code quality.  It's also a great
-way to get the community to contribute to your projects.
-
-I created this set of scripts that allow you to quickly create the markdown needed to 
-file an issue for linting your Go project.
-
-## The command
-
-Simply run this command:
-
-```sh
-./generate-issue.sh <output file name>  <path to project being linted>
-```
-
-I will use one of the projects I currently work on to show the output
-
-```sh
-./generate-issue.sh issue.md $GOPATH/src/github.com/influxdb/influxdb
-```
-
-Here are the contents of the `issue.md` file:
-
-```markdown
 # Description
 
 We want to enable [golint](https://github.com/golang/lint) on our codebase.
@@ -110,4 +85,3 @@ packages passing lint
 - [x] ./tcp        0
 - [x] ./toml        0
 - [x] ./uuid        0
-```
