@@ -29,19 +29,19 @@ We want to enable [golint](https://github.com/golang/lint) on our codebase.
 
 First, get golint:
 
-```
+\```
 go get -u github.com/golang/lint
-```
+\```
 
 Then run it on any package you want to lint:
 
-```sh
+\```sh
 # will lint entire project
 golint ./...
 
 # will lint single package in project
 golint ./<package name>
-```
+\```
 
 We want to do this for several reasons:
 
